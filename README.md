@@ -16,7 +16,7 @@ Clone the repository.
 
 Install the required modules referenced above.
 
-Prior to running the script you will need to create the Azure Active Directory security principal that the script will use.  The script uses the [OAuth 2.0 Client Credentrial Grant flow](https://oauth.net/2/grant-types/client-credentials/) to acquire an OAuth token to access the Resource Graph.  The security principal needs to be granted the permission to access the Resource Graph and have the appropriate RBAC role over the subscription you plan to query.  See the following [Microsoft documentation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-api-authentication) for instructions.
+Prior to running the script you will need to create the Azure Active Directory security principal that the script will use.  The script uses the [OAuth 2.0 Client Credential Grant flow](https://oauth.net/2/grant-types/client-credentials/) to acquire an OAuth token to access the Resource Graph.  The security principal needs to be granted the permission to access the Resource Graph and have the appropriate RBAC role over the subscription you plan to query.  See the following [Microsoft documentation](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-api-authentication) for instructions.
 
 The script logs to standard output by default and can additionally be configured to write the log to a file.
 
