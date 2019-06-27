@@ -6,7 +6,7 @@ Retrieving information about Azure resources typically involves creating separat
 
 ## Requirements
 
-* [Python 3.7](https://www.python.org/downloads/release/python-368/)
+* [Python 3.6](https://www.python.org/downloads/release/python-368/)
 * [Microsoft Azure Python SDK](https://github.com/Azure/azure-sdk-for-python/tree/master/sdk)
 * [Microsoft Authentication Library (MSAL)](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-v2-libraries)
 * [Pandas](https://pandas.pydata.org/)
