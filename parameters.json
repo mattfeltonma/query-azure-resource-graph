@@ -1,10 +1,11 @@
 {
-    "appid":"YOU APP ID",
-    "tenantname":"yourtenant.onmicrosoft.com",
-    "scope":"https://management.azure.com/",
+    "client_id":"AZURE_AD_CLIENT_ID",
+    "client_secret":"AZURE_AD_CLIENT_SECRET",
+    "tenantname":"TENANT_NAME",
+    "scope":"https://management.azure.com//.default",
     "subscription_ids":[
-        "YOUR SUBSCRIPTION ID 1",
-        "YOUR SUBSCRIPTION ID 2"
+        "SUBSCRIPTION_ID_1",
+        "SUBSCRIPTION_ID_1"
     ],
     "query":"where type =~ 'microsoft.storage/storageaccounts' | project name,sku['tier'],kind,properties['supportsHttpsTrafficOnly']"
 }
